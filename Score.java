@@ -31,7 +31,7 @@ public class Score extends JFrame implements ActionListener {
         });
 
         JLabel heading = new JLabel("T H A N K  Y O U   " + name);
-        heading.setBounds(270, 50, 1000, 30);
+        heading.setBounds(250, 50, 1000, 30);
         heading.setFont(new Font("Times New Roman", Font.BOLD, 26));
         heading.setForeground(Color.WHITE);
         this.add(heading);
